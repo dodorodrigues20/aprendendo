@@ -1,0 +1,19 @@
+import readline from 'readline/promises';
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+});
+/*1) Faça um algoritmo que leia os valores A, B, C e imprima na tela se a soma de A + B é menor
+que C.*/
+var a = await rl.question('valor a')
+var b = await rl.question('valor b')
+var c = await rl.question('valor c')
+a = parseInt(a,10)
+b = parseInt(b,10)
+c = parseInt(c,10)
+var soma = a + b
+if (a && b <c){
+    console.log(soma)
+}
+await rl.close() 
