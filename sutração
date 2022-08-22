@@ -1,0 +1,35 @@
+<html>
+    <script>
+        console.log("subtração")        
+        // janeiro 
+        
+        salario = 3000
+        aluguel = 1000
+        contadeagua = 200
+        contadeluz = 200
+        internet = 100
+        trasnporte = 300
+        lazer1 = 300
+        alimentação1 = 500
+       
+       
+        saldo1 = salario - aluguel - contadeagua - contadeluz - internet - trasnporte - lazer1 - alimentação1
+        console.log (saldo1)
+       
+        //fevereiro
+        
+        salario = 3000
+        aluguel = 1000
+        contadeagua = 200
+        contadeluz = 200
+        internet = 100
+        trasnporte = 300
+        lazer1 = 300
+        alimentação1 = 500
+
+        saldo2 = salario - aluguel - contadeagua - contadeluz - internet - trasnporte - lazer1- alimentação1
+        console.log (saldo2)
+        
+        // soma os dois saldos janeiro e feveiro 
+        
+        console.log  (saldo1 + saldo2)
